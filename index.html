@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Rubik:wght@300;400&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <!-- style link -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Mystery Inc.</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Mystery Inc.</h1>
+        </div>
+        <nav class="nav_mobile flex_column" id="mobile-nav">
+            <a href="#home" class="nav_link">Home</a>
+            <a href="#staff" class="nav_link">Staff</a>
+            <a href="#solved" class="nav_link">Solved Cases</a>
+            <a href="#contact" class="nav_link">Contact</a>
+        </nav>
+        
+        <nav class="nav_desktop">
+            <a href="#home">Home</a>
+            <a href="#staff">Staff</a>
+            <a href="#solved">Solved Cases</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="hamburger flex_column" id="hamburger">
+            <div class="patty one"></div>
+            <p class="open">OPEN</p>
+            <p class="close">CLOSE</p>
+            <div class="patty two"></div>
+        </div>
+    </header>
+    <main class="grid">
+        <section class="hero grid" id="home">
+            <div class="text_content flex_column">
+                <h2>Meddling In Your Affairs One Spook At A Time</h2>
+                <p>Sed sed risus pretium quam vulputate dignissim suspendisse in est. Libero id faucibus nisl tincidunt eget nullam non.</p>
+                <button class="call_to-action">Solve Mystery</button>
+            </div>
+            <div class="hero_img">
+                <img src="images/hero-img.png" alt="">
+            </div>
+        </section>
+
+        <div class="spacer flex_row">
+            <div class="img_container">
+                <img src="images/the-gang.jpeg" alt="the gang">
+            </div>
+            <h2>Meet The Gang</h2>
+        </div>
+
+        <section class="fred_and-daphne grid" id="staff">
+            <div class="fred_container flex_column">
+                <div class="img_container">
+                    <img src="images/fred-jones.png" alt="Fred Jones">
+
+                </div>
+                <h2 class="name">Fred Jones</h2>
+                <div class="bio_container flex_column">
+                    <p><span>Age:</span> 24</p>
+                    <p><span>Hometown:</span> Leadsville</p>
+                    <p><span>Education:</span> Highschool</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quisquam sapiente harum? Odit, quis repellat?</p>
+                </div>
+            </div>
+            <div class="daphne_container flex_column">
+                <div class="bio_container flex_column">
+                    <p><span>Age:</span> 25</p>
+                    <p><span>Hometown:</span> Looksville</p>
+                    <p><span>Education:</span> Beautyschool</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quisquam sapiente harum? Odit, quis repellat?</p>
+                </div>
+                <h2 class="name">Daphne Blake</h2>
+                <div class="img_container">
+                    <img src="images/daphne-blake.png" alt="Daphne Blake">
+                </div>
+            </div>
+        </section>
+        <section class="velma_scoob-shaggy grid">
+            <div class="velma_container flex_column">
+                <div class="img_container">
+                    <img src="images/velma-dinkley.png" alt="Velma Dinkley">
+                </div>
+                <h2 class="name">Velma Dinkley</h2>
+                <div class="bio_container flex_column">
+                    <p><span>Age:</span> 22</p>
+                    <p><span>Hometown:</span> Smartville</p>
+                    <p><span>Education:</span> Bachelors</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quisquam sapiente harum? Odit, quis repellat?</p>
+                </div>
+            </div>
+            <div class="scoob_and-shaggy-container flex_column">
+                <div class="bio_container flex_column">
+                    <p><span>Age:</span> 18 and 9</p>
+                    <p><span>Hometown:</span> Mystery Machine</p>
+                    <p><span>Education:</span> Not Much</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quisquam sapiente harum? Odit, quis repellat?</p>
+                </div>
+                <h2 class="name">Scooby Doo and Shaggy Rogers</h2>
+                <div class="img_container shaggy_scoob">
+                    <img src="images/scoob-shaggy.png" alt="Scooby Doo and Shaggy Rogers">
+                </div>
+            </div>
+        </section>
+
+        <div class="spacer flex_row solved_cases">
+            <div class="img_container solved_cases">
+                <img src="images/the-gang-two.jpg" alt="the gang">
+            </div>
+            <h2>Solved Cases</h2>
+        </div>
+
+        <section class="cases grid" id="solved">
+            <div class="creeper flex_column case_container">
+                <div class="img_container">
+                    <img src="images/the creeper.png" alt="The Creeper">
+                </div>
+                <div class="bio_container">
+                    <h2>The Creeper</h2>
+                    <p><span>Alias:</span> Deacon Carlswell</p>
+                    <p><span>Location:</span> Coolsville</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, eos?</p>
+                </div>
+            </div>
+            <div class="clown_ghost flex_column case_container">
+                <div class="img_container">
+                    <img src="images/ghost-clown.png" alt="Ghost Clown">
+                </div>
+                <div class="bio_container">
+                    <h2>Clown Ghost</h2>
+                    <p><span>Alias:</span> Harry the Hypnotist</p>
+                    <p><span>Location:</span> Barnstorms Traveling Circus</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, eos?</p>
+                </div>
+            </div>
+            <div class="captain_cutler flex_column case_container">
+                <div class="img_container">
+                    <img src="images/captain-cutler.png" alt="Captain Cutler">
+                </div>
+                <div class="bio_container">
+                    <h2>Captain Cutler</h2>
+                    <p><span>Alias:</span> Grey DeLisle-Griffin</p>
+                    <p><span>Location:</span> Rocky Point Beach</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, eos?</p>
+                </div>
+            </div>
+            <div class="red_beard flex_column case_container">
+                <div class="img_container">
+                    <img src="images/red-beard.png" alt="Red Beard">
+                </div>
+                <div class="bio_container">
+                    <h2>Red Beard</h2>
+                    <p><span>Alias:</span> C. L. Magnus</p>
+                    <p><span>Location:</span> Skull Island</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, eos?</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="spacer flex_row contact">
+            <div class="img_container contact">
+                <img src="images/the-gang-three.jpg" alt="the gang">
+            </div>
+            <h2>Contact Us</h2>
+        </div>
+
+        <section class="contact grid" id="contact">
+            <p class="email">mysteryInc@jeepers.com</p>
+            <img src="images/mystery-inc-four.png" alt="the gang">
+            <p class="phone">300-420-2569</p>
+        </section>
+    </main>
+    <footer></footer>
+<script src="script.js"></script>
+</body>
+</html>
